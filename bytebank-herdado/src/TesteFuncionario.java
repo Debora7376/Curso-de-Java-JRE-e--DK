@@ -2,7 +2,7 @@ public class TesteFuncionario {
 
 	public static void main(String[] args) {
 
-		Gerente nico = new Gerente();
+		Funcionario nico = new EditorVideo();
 
 		nico.setNome("Nico Steppat");
 		nico.setCpf("223355646-9");
