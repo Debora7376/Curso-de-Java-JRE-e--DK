@@ -1,13 +1,10 @@
-// Não pode criar instancia dessa classe pq e abstrata
 public abstract class Funcionario {
 
 	private String nome;
 	private String cpf;
 	private double salario;
 
-	public double getBonificacao() {
-		return -1;
-	}
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;
