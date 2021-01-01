@@ -24,8 +24,8 @@ public class FluxoComTratamento {
 		for (int i = 1; i <= 5; i++) {
 			System.out.println(i);
 			// int a = i / 0;
-			Conta c = null;
-			c.deposita();
+			//Conta c = null;
+			//c.deposita();
 
 			System.out.println("Fim do metodo2");
 		}
